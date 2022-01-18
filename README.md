@@ -10,6 +10,7 @@ Jiqing Wu, Inti Zlobec, Maxime W Lafarge, Yukun He and Viktor Koelzer.
 
 <p align="center">
 <img src="visual/arch.png" width="800px"/>  
+<br>
 The overall model illustrations of the proposed IID representation learning. 
 Left:  Restyle Encoder and StyleGAN Decoder. 
 Right: The downstream molecular predictor (ERM + IID representation).        
@@ -159,6 +160,7 @@ python main.py -m synth \
 
 <p align="center">
 <img src="visual/fake.jpg" width="800px"/>  
+<br>
 Nonexistent fluorescence images synthesized by StyleGAN learned with RxRx1 training
 data.        
 </p>
@@ -180,6 +182,7 @@ python main.py -m recon \
 
 <p align="center">
 <img src="visual/recon.png" width="800px"/>  
+<br>
 The visual comparison between ground-truth (red bounding
 box) and reconstructed RxRx1 images. After running the above implementation, additional post-processing steps are requried to normalize the
 images along each channel and zoom in on a small region for better visualization.   
