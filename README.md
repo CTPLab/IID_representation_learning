@@ -1,5 +1,5 @@
 # IID representation learning
-Official PyTorch implementation (under development upon reviwers' feedback) for the following manuscript:
+Official PyTorch implementation (under development upon reviewers' feedback) for the following manuscript:
 
 [Towards IID representation learning and its application on biomedical data](https://openreview.net/forum?id=qKZH_U-tn9P), MIDL 2022, under review. \
 Jiqing Wu, Inti Zlobec, Maxime W Lafarge, Yukun He and Viktor Koelzer.
