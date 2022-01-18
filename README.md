@@ -98,7 +98,7 @@ sudo docker run -it \
 ```
 python main.py -m train \
                -e 150 \
-               --seed 512 \
+               --seed 0 \
                --lr cosine,1.5e-4,90,6e-5,150,0 \
                --backbone resnet50 \
                --data_type rxrx1 \
