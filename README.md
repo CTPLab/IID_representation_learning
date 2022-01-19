@@ -111,7 +111,9 @@ python main.py -m train \
                --checkpoint_path restyle/pretrained_models/ --save-model --loss-coef 0.15 --noise --style
 ```
 
-**The Training of IID representation (Restyle auto-encoder)**
+**The Training of IID representation (Restyle auto-encoder)**       
+First, add the data path string '/Path/to/Training/Data' to `dataset_paths['wilds']` in [restyle/configs/paths_config.py](https://github.com/CTPLab/IID_representation_learning/blob/b0003b563cfcb9fe69147fff878ce6cd7f8ebea2/restyle/configs/paths_config.py#L17), then run
+
 ```
 cd restyle
 
