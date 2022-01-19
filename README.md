@@ -190,4 +190,4 @@ images along each channel and zoom in on a small region for better visualization
 
 ## Acknowledgments
 This implementation is built upon [Restyle](https://https://github.com/yuval-alaluf/restyle-encoder) and [WILDS](https://github.com/p-lambda/wilds) projects.
-Besides, our code also borrows from [kaggle-rcic-1st](https://github.com/maciej-sypetkowski/kaggle-rcic-1st). We would like to convey our gratitudes to all the authors working on those projects.
+Besides, our code borrows from [kaggle-rcic-1st](https://github.com/maciej-sypetkowski/kaggle-rcic-1st). We would like to convey our gratitudes to all the authors working on those projects.
