@@ -14,7 +14,7 @@ dataset_paths = {
 	'afhq_wild_train': '',
 	'afhq_wild_test': '',
 
-	'wilds': '/home/jwu/Data'
+	'wilds': ''
 
 }
 
