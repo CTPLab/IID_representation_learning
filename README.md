@@ -88,7 +88,7 @@ sudo docker run -it \
     # this folder stores the pretrained weights of some standard backbones
     # that may be used during training
     -v /Path/To/.cache/torch/hub/checkpoints:/root/.cache/torch/hub/checkpoints/ \
-    -v /Path/To/IID_representation_learning:/root/iid \
+    -v /Path/To/IID_representation_learning:/root/IID_representation_learning \
     -v /Path/To/Data:/root/Data \
     --gpus '"device=0"'  iid
 ```
