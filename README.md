@@ -46,7 +46,7 @@ or install conda dependencies.
 Assume Docker and Nvidia-Docker2 toolkit are correctly installed, build the Docker image as follows
 
 ```
-cd $Path/To/IID_representation_learning/
+cd /Path/To/IID_representation_learning/
 docker build -t iid .
 ```
 
@@ -96,6 +96,8 @@ sudo docker run -it \
 
 **The Training of Molecular Prediction**
 ```
+cd /Path/To/IID_representation_learning/
+
 python main.py -m train \
                -e 150 \
                --seed 0 \
@@ -115,7 +117,7 @@ python main.py -m train \
 First, add the data path string '/Path/to/Training/Data' to `dataset_paths['wilds']` in [restyle/configs/paths_config.py](https://github.com/CTPLab/IID_representation_learning/blob/b0003b563cfcb9fe69147fff878ce6cd7f8ebea2/restyle/configs/paths_config.py#L17), then run
 
 ```
-cd restyle
+cd /Path/To/IID_representation_learning/restyle
 
 python scripts/train_restyle_psp.py \
     --dataset_type=rxrx1 \
@@ -148,6 +150,8 @@ See https://github.com/rosinality/stylegan2-pytorch for more details about creat
 ## Visualization
 **The Image Synthesis of StyleGAN**
 ```
+cd /Path/To/IID_representation_learning/
+
 python main.py -m synth \
                --data_type rxrx1 \
                --classes 1139 \
@@ -170,6 +174,8 @@ data.
 
 **The Reconstruction of Restyle Auto-encoder**
 ```
+cd /Path/To/IID_representation_learning/
+
 python main.py -m recon \
                --data_type rxrx1 \
                --classes 1139 \
