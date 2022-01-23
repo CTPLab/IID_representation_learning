@@ -70,7 +70,7 @@ To run the experiments investigated in the paper, we need to download the RxRx1 
     ```
     git clone https://github.com/p-lambda/wilds.git
     cd wilds/
-    python wilds/download_datasets.py --root_dir path/to/data --datasets rxrx1
+    python wilds/download_datasets.py --root_dir /Path/To/Data --datasets rxrx1
     ```
 
 2. Create [restyle/pretrained_models/](restyle/pretrained_models/) folder and  download the following models to this folder 
