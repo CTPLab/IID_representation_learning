@@ -1,11 +1,11 @@
 # IID representation learning
-Official PyTorch implementation (under development upon reviewers' feedback) for the following manuscript:
+Official PyTorch implementation for the following manuscript:
 
-[Towards IID representation learning and its application on biomedical data](https://openreview.net/forum?id=qKZH_U-tn9P), MIDL 2022, under review. \
+[Towards IID representation learning and its application on biomedical data](https://openreview.net/forum?id=qKZH_U-tn9P), MIDL 2022. \
 Jiqing Wu, Inti Zlobec, Maxime W Lafarge, Yukun He and Viktor Koelzer.
 
 > Due to the heterogeneity of real-world data, the widely accepted independent and identically distributed (IID) assumption has been criticized in recent studies on causality. In this paper, we argue that instead of being a questionable assumption,  IID is a fundamental task-relevant property that needs to be learned. 
-> **Consider k independent random vectors <img src="https://latex.codecogs.com/png.image?\dpi{110}%20\mathsf{X}^{i%20=%201,%20\ldots,%20k}" />,** We elaborate on how a variety of different causal questions can be reformulated to learning a task-relevant function **<img src="https://latex.codecogs.com/png.image?\dpi{110}%20\phi" />** that induces IID **among <img src="https://latex.codecogs.com/png.image?\dpi{110}%20\mathsf{Z}^i%20:=%20%20\phi%20\circ%20\mathsf{X}^i" />**, which we term IID representation learning.
+> Consider k independent random vectors <img src="https://latex.codecogs.com/png.image?\dpi{110}%20\mathsf{X}^{i%20=%201,%20\ldots,%20k}" />, We elaborate on how a variety of different causal questions can be reformulated to learning a task-relevant function <img src="https://latex.codecogs.com/png.image?\dpi{110}%20\phi" /> that induces IID among <img src="https://latex.codecogs.com/png.image?\dpi{110}%20\mathsf{Z}^i%20:=%20%20\phi%20\circ%20\mathsf{X}^i" />, which we term IID representation learning.
 >
 > For proof of concept, we examine the IID representation learning on Out-of-Distribution (OOD) generalization tasks. Concretely, by utilizing the representation obtained via the learned function that induces IID, we conduct prediction of molecular characteristics (molecular prediction) on two biomedical datasets with real-world distribution shifts introduced by a) preanalytical variation and b) sampling protocol. To enable reproducibility and for comparison to the state-of-the-art (SOTA) methods, this is done by following the OOD benchmarking guidelines recommended from WILDS. Compared to the SOTA baselines supported in WILDS, the results confirm the superior performance of IID representation learning on OOD tasks. 
 
@@ -22,8 +22,7 @@ Right: The downstream molecular predictor (ERM + IID representation).
 <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" height=22.5></a>  
 
 ## WILDS Leaderboard
-TODO
-
+<a href="https://wilds.stanford.edu/leaderboard/#rxrx1"><img src="https://img.shields.io/badge/WILDS-RxRx1-purple.svg" height=22.5></a>  
 
 ## Installation
 This implementation is mainly dependent on two backends:  [Restyle](https://https://github.com/yuval-alaluf/restyle-encoder) and [WILDS](https://github.com/p-lambda/wilds). This suggests that, if the dependencies for Restyle and Wilds are installed, then the environment of our code is correctly configured.
